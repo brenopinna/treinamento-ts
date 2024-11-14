@@ -23,3 +23,5 @@ Sugiro darem uma olhada na parte da definição do diretório dos arquivos fonte
 
 Se ocorrer algum erro sobre nome de variável igual (vai ocorrer se o TS e o JS estiverem no mesmo diretório),
 procure separar esses arquivos em diretórios diferentes, e isso vai ser resolvido.
+
+# [Link do formulário de IMC](https://brenopinna.github.io/treinamento-ts/)
