@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Treinamento de TS</title>
+  </head>
+  <body>
+    <form id="form-imc">
+      <legend>Formulário de Cálculo de IMC</legend>
+      <div>
+        <label for="name">Nome:</label>
+        <input
+          required
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Digite seu nome:" />
+      </div>
+      <div>
+        <label for="gender">Gênero:</label>
+        <div>
+          <input type="radio" checked name="gender" id="male" value="male" />
+          <label for="male">Masculino</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Feminino</label>
+        </div>
+      </div>
+      <div>
+        <label for="age">Idade:</label>
+        <input
+          type="number"
+          name="age"
+          required
+          id="age"
+          placeholder="Digite sua idade"
+          min="1"
+          step="1" />
+      </div>
+      <div>
+        <label for="height">Altura:</label>
+        <input
+          type="number"
+          name="height"
+          id="height"
+          placeholder="Digite sua altura"
+          min="1"
+          required
+          step="0.01" />
+      </div>
+      <div>
+        <label for="weight">Peso:</label>
+        <input
+          required
+          type="number"
+          name="weight"
+          id="weight"
+          placeholder="Digite seu peso:"
+          min="1"
+          step="0.01" />
+      </div>
+      <button type="submit">Calcular</button>
+    </form>
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
